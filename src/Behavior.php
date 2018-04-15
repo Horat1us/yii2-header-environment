@@ -1,6 +1,6 @@
 <?php
 
-namespace Horat1us\HeaderEnvironment;
+namespace Horat1us\Yii\HeaderEnvironment;
 
 use yii\base;
 use yii\web;

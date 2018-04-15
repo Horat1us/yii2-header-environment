@@ -1,8 +1,8 @@
 <?php
 
-namespace Horat1us\HeaderEnvironment\Tests;
+namespace Horat1us\Yii\HeaderEnvironment\Tests;
 
-use Horat1us\HeaderEnvironment;
+use Horat1us\Yii\HeaderEnvironment;
 use yii\base;
 
 /**

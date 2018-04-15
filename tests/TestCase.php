@@ -1,6 +1,6 @@
 <?php
 
-namespace Horat1us\HeaderEnvironment\Tests;
+namespace Horat1us\Yii\HeaderEnvironment\Tests;
 
 use yii\di\Container;
 

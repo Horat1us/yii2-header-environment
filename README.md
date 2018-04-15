@@ -6,7 +6,8 @@
 
 Purpose of this package is to load environment variables from HTTP headers.  
 Case: your API receives hash and need to check it by secret key stored in environment.
-Your test case can not directly use `putenv` because API and Test API Client is executed in different flows.
+Your test case can not directly use `putenv` because API and Test API Client is executed in different flows
+(CLI/FPM for example)
 
 **Notice: you should use this package only in test environment!**
 
@@ -23,7 +24,7 @@ Controller:
 namespace App\Controllers;
 
 use yii\web;
-use Horat1us\HeaderEnvironment;
+use Horat1us\Yii\HeaderEnvironment;
 
 class SiteController extends web\Controller
 {

@@ -20,12 +20,12 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Horat1us\\HeaderEnvironment\\": "src/"
+      "Horat1us\\Yii\\HeaderEnvironment\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Horat1us\\HeaderEnvironment\\Tests\\": "tests/"
+      "Horat1us\\Yii\\HeaderEnvironment\\Tests\\": "tests/"
     }
   },
   "config": {
